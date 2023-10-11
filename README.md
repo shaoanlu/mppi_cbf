@@ -9,6 +9,6 @@ Colab notebooks of personal experiments with MPPI and CBF.
 
 
 ### Note for implementations
-- Terminal cost of MPPI is non-trivial. It improves the quality of prior of control sequence and therefore prevent the controller to unnecessaryly drive the system away from target position.
-- Discrete CBF cost is a good fit to sampling based predictive controllers and only introduces little extra computation
-- Gaurantee of CBF-QP is lost with discretization.
+- The terminal cost in MPPI is significant. It enhances the quality of the control sequence's prior, thereby preventing the controller from inadvertently deviating the system from its target position.
+- The discrete CBF cost aligns well with sampling-based predictive controllers, introducing only minimal additional computation.
+- The guarantees provided by CBF-QP diminish with discretization.
