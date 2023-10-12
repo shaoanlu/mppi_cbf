@@ -16,4 +16,4 @@ Colab notebooks of personal experiments with MPPI and CBF.
 
 
 ### References
-- Shield Model Predictive Path Integral: A Computationally Efficient Robust MPC Approach Using Control Barrier Functions, Ji Yin, et.al. https://arxiv.org/abs/2302.11719
+1. Shield Model Predictive Path Integral: A Computationally Efficient Robust MPC Approach Using Control Barrier Functions, Ji Yin, et.al. https://arxiv.org/abs/2302.11719
