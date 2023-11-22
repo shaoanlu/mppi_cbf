@@ -1,11 +1,22 @@
 # mppi_cbf_playground
 Colab notebooks of personal experiments with MPPI and CBF.
 
-### Contents
-1. MPPI for trajectory planning and obstacle avoidance [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shaoanlu/mppi_cbf_playground/blob/main/bicycle_mppi_cbf_shielding.ipynb)
-    - With safety gaurantee from 1) CBF constraint, 2) CBF-QP safety filter, and 3) nonlinnear predictive filter[1]
+### Content
+
+
+| Controller | Safety Filter               | Model       | Colab Link                                                                                                                                                                                     |
+| ---------- | --------------------------- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| MPPI       | CBF cost                    | Bicycle car | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shaoanlu/mppi_cbf_playground/blob/main/bicycle_mppi_cbf_shielding.ipynb) |
+|            | CBF-QP                      | Bicycle car | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shaoanlu/mppi_cbf_playground/blob/main/bicycle_mppi_cbf_shielding.ipynb) |
+|            | Nonlinear predictive filter | Bicycle car | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shaoanlu/mppi_cbf_playground/blob/main/bicycle_mppi_cbf_shielding.ipynb) |
+
+### Demo
+The following animations are simulation result of MPPI controller for obstacle avoidance.
+- Left: w/ CBF cost
+- Middle: w/ CBFQP as safety filter
+- Right: w/ nonlinnear predictive filter
 <p align="center">
-  <img src="mppi_anim.gif" width=400>
+  <img src="mppi_anim.gif" width=300> <img src="mppi_cbfqp_anim.gif" width=300> <img src="mppi_shielding_anim.gif" width=300>
 </p>
 
 
