@@ -13,7 +13,7 @@ Colab notebooks of personal experiments with MPPI and CBF.
 ### Demo
 The following animations are simulation result of MPPI controller for obstacle avoidance.
 - Left: w/ CBF as a cost term in MPPI.
-- Middle: w/ a CBFQP as the safety filter.
+- Middle: w/ a CBFQP safety filter.
 - Right: w/ a nonlinear predictive safety filter.
 <p align="center">
   <img src="assets/mppi_anim.gif" width=250> <img src="assets/mppi_cbfqp_anim.gif" width=250> <img src="assets/mppi_shielding_anim.gif" width=250>
@@ -27,4 +27,5 @@ The following animations are simulation result of MPPI controller for obstacle a
 
 
 ### References
-1. Shield Model Predictive Path Integral: A Computationally Efficient Robust MPC Approach Using Control Barrier Functions, Ji Yin, et.al. https://arxiv.org/abs/2302.11719
+1. Yin, Ji, et al. "Shield Model Predictive Path Integral: A Computationally Efficient Robust MPC Approach Using Control Barrier Functions." arXiv preprint arXiv:2302.11719 (2023). https://arxiv.org/abs/2302.11719
+2. Ames, Aaron D., et al. "Control barrier functions: Theory and applications." 2019 18th European control conference (ECC). IEEE, 2019. https://arxiv.org/abs/1903.11199
