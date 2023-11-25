@@ -1,23 +1,31 @@
 # mppi_cbf_playground
 Colab notebooks of personal experiments with MPPI and CBF.
 
-### Content
+## Content
 
 
-| Nominal Controller | Safety Filter               | Model            | Colab Link                                                                                                                                                                                     |
-| ------------------ | --------------------------- | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| MPPI               | CBF cost                    | Bicycle car      | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shaoanlu/mppi_cbf_playground/blob/main/bicycle_mppi_cbf_shielding.ipynb) |
-|                    | CBF-QP                      | Bicycle car      | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shaoanlu/mppi_cbf_playground/blob/main/bicycle_mppi_cbf_shielding.ipynb) |
-|                    | Nonlinear predictive filter | Bicycle car      | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shaoanlu/mppi_cbf_playground/blob/main/bicycle_mppi_cbf_shielding.ipynb) |
-| MPPI               | CBF cost                    | Planar quadrotor | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shaoanlu/mppi_cbf_playground/blob/main/planar_quadrotor_mppi_cbf.ipynb)  |
+| Nominal Controller | Safety Filter               | Model                                   | Colab Link                                                                                                                                                                                             |
+| ------------------ | --------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| MPPI               | CBF cost                    | Bicycle car                             | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shaoanlu/mppi_cbf_playground/blob/main/bicycle_mppi_cbf_shielding.ipynb)         |
+|                    | CBF-QP                      | Bicycle car                             | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shaoanlu/mppi_cbf_playground/blob/main/bicycle_mppi_cbf_shielding.ipynb)         |
+|                    | Nonlinear predictive filter | Bicycle car                             | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shaoanlu/mppi_cbf_playground/blob/main/bicycle_mppi_cbf_shielding.ipynb)         |
+| MPPI               | CBF cost                    | Planar quadrotor                        | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shaoanlu/mppi_cbf_playground/blob/main/planar_quadrotor_mppi_cbf.ipynb)          |
+| MPPI               | CBF cost                    | Planar quadrotor with suspended payload | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shaoanlu/mppi_cbf_playground/blob/main/planar_quadrotor_pendulum_mppi_cbf.ipynb) |
 
-### Demo
+## Demonstrations
+### Demo 1: bicycle car
 The following animations are simulation result of MPPI controller for obstacle avoidance.
 - Left: w/ CBF as a cost term in MPPI.
 - Middle: w/ a CBFQP safety filter.
 - Right: w/ a nonlinear predictive safety filter.
 <p align="center">
-  <img src="assets/mppi_anim.gif" width=250> <img src="assets/mppi_cbfqp_anim.gif" width=250> <img src="assets/mppi_shielding_anim.gif" width=250>
+  <img src="assets/bicycle_mppi_cbf_anim.gif" width=250> <img src="assets/bicycle_mppi_cbfqp_anim.gif" width=250> <img src="assets/bicycle_mppi_shielding_anim.gif" width=250>
+</p>
+
+### Demo 2: planar quadrotor
+The following animations are simulation result of MPPI controller with CBF cost for obstacle avoidance.
+<p align="center">
+  <img src="assets/2Dquadrotor_mppi_cbf_anim.gif" width=250> <img src="assets/2Dquadrotor_pendulum_mppi_cbf_anim.gif" width=250>
 </p>
 
 
