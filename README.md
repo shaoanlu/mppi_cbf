@@ -24,6 +24,8 @@ The following animations are simulation result of MPPI controller for obstacle a
 
 ### Demo 2: planar quadrotor
 The following animations are simulation result of MPPI controller with CBF cost for obstacle avoidance.
+- Left: w/ CBF as a cost term in MPPI.
+- Right: w/ CBF as a cost term in MPPI. A suspended payload is attached to the quadrotor.
 <p align="center">
   <img src="assets/2Dquadrotor_mppi_cbf_anim.gif" width=250> <img src="assets/2Dquadrotor_pendulum_mppi_cbf_anim.gif" width=250>
 </p>
