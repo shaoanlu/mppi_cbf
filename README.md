@@ -1,5 +1,5 @@
 # mppi_cbf_playground
-Colab notebooks of personal experiments with MPPI and CBF. Each notebook is independent and can be executed immediately in Colab without extra setup.
+Colab notebooks of personal experiments with MPPI and CBF. Each notebook is stand-alone and can be executed immediately in Colab without extra setup.
 
 ## Content
 
