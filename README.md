@@ -10,8 +10,8 @@ Colab notebooks of personal experiments with MPPI and CBF. Each notebook is stan
 |                    | CBF-QP                      | Bicycle car                             | Same as above                                                                                                                                                                                          |
 |                    | Nonlinear predictive filter | Bicycle car                             | Same as above                                                                                                                                                                                          |
 | MPPI               | CBF cost                    | Planar quadrotor                        | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shaoanlu/mppi_cbf_playground/blob/main/planar_quadrotor_mppi_cbf.ipynb)          |
-| MPPI               | CBF cost                    | Planar quadrotor with suspended payload | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shaoanlu/mppi_cbf_playground/blob/main/planar_quadrotor_pendulum_mppi_cbf.ipynb) |
 | Sequential QP         | CLF-CBF-QP                    | Planar quadrotor | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shaoanlu/mppi_cbf_playground/blob/main/planar_quadrotor_cbf_clf_qp.ipynb) |
+| MPPI               | CBF cost                    | Planar quadrotor with suspended payload | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shaoanlu/mppi_cbf_playground/blob/main/planar_quadrotor_pendulum_mppi_cbf.ipynb) |
 
 ## Demonstrations
 ### Demo 1: bicycle car
