@@ -32,7 +32,7 @@ The following animations are simulation result of MPPI controller with CBF cost 
 </p>
 
 ### Demo 3: plannar quadrotor with CLF-CBF-QP controller
-The following figures show a closed-loop simulation result of sequential CLF-QP controller w/ and w/o CBF as safety filter. ([reference](https://hybrid-robotics.berkeley.edu/publications/ACC2016_Safety_Control_Planar_Quadrotor.pdf))
+The following figures show a closed-loop simulation result of sequential CLF-QP controller w/ and w/o CBF as safety filter.
 <p align="center">
   <img src="assets/sequentisl-clf-cbf-qp.png" width=350>
 </p>
