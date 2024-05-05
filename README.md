@@ -47,3 +47,4 @@ The following figures show a closed-loop simulation result of sequential CLF-QP 
 ### References
 1. Yin, Ji, et al. "Shield Model Predictive Path Integral: A Computationally Efficient Robust MPC Approach Using Control Barrier Functions." arXiv preprint arXiv:2302.11719 (2023). https://arxiv.org/abs/2302.11719
 2. Ames, Aaron D., et al. "Control barrier functions: Theory and applications." 2019 18th European control conference (ECC). IEEE, 2019. https://arxiv.org/abs/1903.11199
+3. Wu, Guofan, and Koushil Sreenath. "Safety-critical control of a planar quadrotor." 2016 American control conference (ACC). IEEE, 2016.
