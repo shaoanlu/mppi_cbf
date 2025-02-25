@@ -41,7 +41,7 @@ The following figures show a closed-loop simulation result of sequential CLF-QP 
 ### Demo 4: Closed-form solution of CLF-CBF-QP controller
 The following figures show a simulation result of CLF-QP controller w/ a safety filter using composite CBF.
 <p align="center">
-  <img src="assets/numpy_clfcbfqp.gif" width=350>
+  <img src="assets/numpy_clfcbfqp.gif" width=250>
 </p>
 
 
