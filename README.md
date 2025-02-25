@@ -6,12 +6,13 @@ Colab notebooks of personal experiments with MPPI and CBF. Each notebook is stan
 
 | Nominal Controller | Safety Filter               | Model                                   | Colab Link                                                                                                                                                                                             |
 | ------------------ | --------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| MPPI               | CBF cost                    | Bicycle car                             | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shaoanlu/mppi_cbf_playground/blob/main/bicycle_mppi_cbf_shielding.ipynb)         |
-|                    | CBF-QP                      | Bicycle car                             | Same as above                                                                                                                                                                                          |
-|                    | Nonlinear predictive filter | Bicycle car                             | Same as above                                                                                                                                                                                          |
+| CLF-QP               | CBF-QP                    | Omnidirectioal Robot                             | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shaoanlu/mppi_cbf_playground/blob/main/omnirobot_numpy_composite_clfcbf.ipynb)         |
+| MPPI               | CBF cost                    | Unicycle car                             | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shaoanlu/mppi_cbf_playground/blob/main/bicycle_mppi_cbf_shielding.ipynb)         |
+|                    | CBF-QP                      | Unicycle car                             | Same as above                                                                                                                                                                                          |
+|                    | Nonlinear predictive filter | Unicycle car                             | Same as above                                                                                                                                                                                          |
 | MPPI               | CBF cost                    | Planar quadrotor                        | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shaoanlu/mppi_cbf_playground/blob/main/planar_quadrotor_mppi_cbf.ipynb)          |
 | [Sequential QP](https://hybrid-robotics.berkeley.edu/publications/ACC2016_Safety_Control_Planar_Quadrotor.pdf)         | CLF-CBF-QP                    | Planar quadrotor | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shaoanlu/mppi_cbf_playground/blob/main/planar_quadrotor_cbf_clf_qp.ipynb) |
-| MPPI               | CBF cost                    | Planar quadrotor with suspended payload | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shaoanlu/mppi_cbf_playground/blob/main/planar_quadrotor_pendulum_mppi_cbf.ipynb) |
+| MPPI               | CBF cost                    | Planar quadrotor with a suspended payload | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shaoanlu/mppi_cbf_playground/blob/main/planar_quadrotor_pendulum_mppi_cbf.ipynb) |
 
 ## Demonstrations
 ### Demo 1: bicycle car
@@ -35,6 +36,12 @@ The following animations are simulation result of MPPI controller with CBF cost 
 The following figures show a closed-loop simulation result of sequential CLF-QP controller w/ and w/o CBF as a constraint.
 <p align="center">
   <img src="assets/sequentisl-clf-cbf-qp.png" width=350>
+</p>
+
+### Demo 4: Closed-form solution of CLF-CBF-QP controller
+The following figures show a simulation result of CLF-QP controller w/ a safety filter using composite CBF.
+<p align="center">
+  <img src="assets/numpy_clfcbfqp.gif" width=350>
 </p>
 
 
