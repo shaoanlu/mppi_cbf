@@ -7,6 +7,7 @@ Colab notebooks of personal experiments with MPPI and CBF. Each notebook is stan
 | Nominal Controller | Safety Filter               | Model                                   | Colab Link                                                                                                                                                                                             |
 | ------------------ | --------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | CLF-QP               | CBF-QP                    | Omnidirectioal Robot                             | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shaoanlu/mppi_cbf_playground/blob/main/omnirobot_numpy_composite_clfcbf.ipynb)         |
+| CLF-QP               | CBF-QP (Poisson Safety Function)            | Omnidirectioal Robot                             | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shaoanlu/mppi_cbf_playground/blob/main/omnirobot_numpy_clfcbf_with_poisson_func.ipynb)         |
 | MPPI               | CBF cost                    | Unicycle car                             | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shaoanlu/mppi_cbf_playground/blob/main/bicycle_mppi_cbf_shielding.ipynb)         |
 |                    | CBF-QP                      | Unicycle car                             | Same as above                                                                                                                                                                                          |
 |                    | Nonlinear predictive filter | Unicycle car                             | Same as above                                                                                                                                                                                          |
@@ -44,6 +45,12 @@ The following figures show a simulation result of CLF-QP controller w/ a safety 
   <img src="assets/numpy_clfcbfqp.gif" width=250>
 </p>
 
+### Demo 5: Closed-form solution of CLF-CBF-QP controller with Poisson equation
+The following figures show a simulation result of CLF-QP controller w/ a safety filter based on a Poisson equation built from a 2D occupancy map.
+<p align="center">
+  <img src="assets/numpy_clfcbfqp_poisson.gif" width=250>
+</p>
+
 
 ### Note for implementations
 - The terminal cost in MPPI is significant. It enhances the quality of the control sequence's prior, thereby preventing the controller from inadvertently deviating the system from its target position.
@@ -55,3 +62,4 @@ The following figures show a simulation result of CLF-QP controller w/ a safety 
 1. Yin, Ji, et al. "Shield Model Predictive Path Integral: A Computationally Efficient Robust MPC Approach Using Control Barrier Functions." arXiv preprint arXiv:2302.11719 (2023). https://arxiv.org/abs/2302.11719
 2. Ames, Aaron D., et al. "Control barrier functions: Theory and applications." 2019 18th European control conference (ECC). IEEE, 2019. https://arxiv.org/abs/1903.11199
 3. Wu, Guofan, and Koushil Sreenath. "Safety-critical control of a planar quadrotor." 2016 American control conference (ACC). IEEE, 2016.
+4. Bahati, G., Bena, R. M., & Ames, A. D. (2025). Dynamic Safety in Complex Environments: Synthesizing Safety Filters with Poisson's Equation. arXiv preprint arXiv:2505.06794.
